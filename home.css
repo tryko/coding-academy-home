@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+    margin-left: 10px;
+    color: lightgrey;
+    font-family: 'Bree Serif', serif;
+}
+
+.logo {
+    height: 100px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    align-self: center;
+    width: 60%;
+}
+
+.card>a {
+    text-decoration: none;
+    font-size: 80%;
+    color: white;
+}
+
+
+.board {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.animate {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.action-button {
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.blue {
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+}
+
+.red {
+    background-color: #E74C3C;
+    border-bottom: 5px solid #BD3E31;
+    text-shadow: 0px -2px #BD3E31;
+}
+
+.green {
+    background-color: #82BF56;
+    border-bottom: 5px solid #669644;
+    text-shadow: 0px -2px #669644;
+}
+
+.yellow {
+    background-color: #F2CF66;
+    border-bottom: 5px solid #D1B358;
+    text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 5px solid;
+}
+
+html {
+    font-size: 1em;
+}
+
+@media(min-width:300px) {
+    .action-button {
+        font-size: 3em
+    }
+}
+
+@media(min-width:1100px) {
+    .action-button {
+        font-size: 1em
+    }
+}
